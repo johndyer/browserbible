@@ -1,4 +1,4 @@
-	
+
 /**
  * Adds a configuration window for fonts, colors, and sizes
  *
@@ -19,8 +19,11 @@ docs.plugins.push({
 			],
 			colorOptions = [
 				{name: 'Default'},
-				{name: 'Tan'},
-				{name: 'Green'}
+				{name: 'nature'},
+				{name: 'paper'},
+				{name: 'art'},
+				{name: 'steel'},
+				{name: 'wood'}
 			],
 			sizeOptions = [
 				{name: 'Small'},
