@@ -1,9 +1,9 @@
-body {
+﻿body {
 	background: #fff;
 }
 
 #header {
-	height: 40px;
+	height: 30px;
 	background: #333;
 	color: #fff;
 }
@@ -16,7 +16,7 @@ body {
 
 #header #header-nav {
 	position: absolute;
-	top: 0;
+	top: -6px;
 	right: 0;
 	text-align: right;
 	padding: 10px 10px 0 0 ;
@@ -529,45 +529,104 @@ body {
 	font-family: baskerville;
 }
 
-/* TAN */
-.config-theme-tan #header {
-	background: #4f2e00;
+/* Nature */
+.config-theme-nature #header {
+	background: url(images/leaves_antique_texture_1_bg.jpg);
 }
-.config-theme-tan .document-content {
+.config-theme-nature .document-content {
 	-x-background: #eeebe7;
 }
-.config-theme-tan .document-header {
-	background: #d3c9b8;
+.config-theme-nature .document-header {
+	background: url(images/leaves_antique_texture_3_bg.jpg);
 }
-.config-theme-tan .document-footer {
-	background: #d3c9b8;
+.config-theme-nature .document-footer {
+	background: url(images/leaves_antique_texture_3_bg.jpg);
 }
-.config-theme-tan .chapter {
-	color: #4f2e00;
+.config-theme-nature .chapter {
+	color: #111;
 }
-.config-theme-tan .popup-window {
-	background: #4f2e00;
+.config-theme-nature .popup-window {
+	background: #111;
+}
 
+/* STEEL */
+.config-theme-steel #header {
+	background: url(images/cream_aluminum_1_bg.jpg);
+}
+.config-theme-steel .document-content {
+	-x-background: #eeebe7;
+}
+.config-theme-steel .document-header {
+	background: url(images/cream_aluminum_2_bg.jpg);
+}
+.config-theme-steel .document-footer {
+	background: url(images/cream_aluminum_2_bg.jpg);
+}
+.config-theme-steel .chapter {
+	color: #111;
+}
+.config-theme-steel .popup-window {
+	background: #111;
 }
 
-/* GREEN */
-.config-theme-green #header {
-	background: #33aa33;
+/* Art */
+.config-theme-art #header {
+	background: url(images/floral_lines_texture_1_bg.jpg);
 }
-.config-theme-green .document-content {
+.config-theme-art .document-content {
+	-x-background: #eeebe7;
+}
+.config-theme-art .document-header {
+	background: url(images/floral_lines_texture_2_bg.jpg);
+}
+.config-theme-art .document-footer {
+	background: url(images/floral_lines_texture_2_bg.jpg);
+}
+.config-theme-art .chapter {
+	color: #111;
+}
+.config-theme-art .popup-window {
+	background: #111;
+}
+
+/* WOOD */
+.config-theme-wood #header {
+	background: url(images/wood_texture_1_bg.jpg);
+}
+.config-theme-wood .document-content {
+	-x-background: #eeebe7;
+}
+.config-theme-wood .document-header {
+	background: url(images/wood_texture_2_bg.jpg);
+}
+.config-theme-wood .document-footer {
+	background: url(images/wood_texture_2_bg.jpg);
+}
+.config-theme-wood .chapter {
+	color: #111;
+}
+.config-theme-wood .popup-window {
+	background: #111;
+}
+
+/* Paper */
+.config-theme-paper #header {
+	background: url(images/yellow_cream_texture_1_bg-1.jpg);
+}
+.config-theme-paper .document-content {
 	background: #fefefe;
 }
-.config-theme-green .document-header {
-	background: #ccffcc;
+.config-theme-paper .document-header {
+	background: url(images/leaves_antique_texture_2_bg.jpg);
 }
-.config-theme-green .document-footer {
-	background: #ccffcc;
+.config-theme-paper .document-footer {
+	background: url(images/leaves_antique_texture_2_bg.jpg);
 }
-.config-theme-green .chapter {
-	color: #002200;
+.config-theme-paper .chapter {
+	color: #111;
 }
-.config-theme-green .popup-window {
-	background: #33aa33;
+.config-theme-paper .popup-window {
+	background: #111;
 
 }
 
