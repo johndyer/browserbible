@@ -2,7 +2,7 @@
 
 A browser based Bible Study Application built with the holy trinity of HTML, CSS, and JavaScript.
 
-* Created by: [http://www.dbsbible.org](Digital Bible Society)
+* Created by: [http://www.dbs.org](Digital Bible Society)
 * Project Leader: John Dyer [http://j.hn/](http://j.hn/)
 * Code License: GPLv2/MIT
 * Content License: See each content folder for a license
